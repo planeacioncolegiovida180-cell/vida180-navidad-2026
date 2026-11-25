@@ -1,0 +1,29 @@
+COLEGIO VIDA 180 — PUBLICACIÓN GRATUITA
+
+CONTENIDO
+Esta carpeta contiene la versión estática de la invitación: diseño, animaciones, imagen institucional y música. Se retiró el servidor Node/Supabase porque GitHub Pages solo aloja archivos estáticos.
+
+PUBLICAR EN GITHUB PAGES (GRATIS)
+1. Inicie sesión en https://github.com/ o cree una cuenta gratuita.
+2. Cree un repositorio público llamado vida180-navidad-2026.
+3. Cargue TODOS los archivos y carpetas de esta carpeta en la raíz del repositorio (index.html, styles.css, app.js, config.js y assets/). No cargue los archivos del ZIP original que no estén en esta carpeta.
+4. En el repositorio, abra Settings > Pages.
+5. En Build and deployment, elija Deploy from a branch; seleccione la rama main y la carpeta /(root), y guarde.
+6. GitHub mostrará la URL pública cuando termine la publicación.
+
+ACTIVAR CONFIRMACIONES CON GOOGLE FORMS (GRATIS)
+1. En https://forms.google.com/ cree un formulario.
+2. Agregue estas preguntas: Nombre del invitado (respuesta corta, obligatorio); Institución, iglesia u organización (respuesta corta, opcional); Número de asistentes (respuesta corta o desplegable, obligatorio); Confirmación (opción múltiple: Sí asistiré / No podré asistir, obligatorio); Mensaje (párrafo, opcional).
+3. Enviar > enlace > copiar. Use el enlace público que empieza con https://docs.google.com/forms/d/e/
+4. Abra config.js y pegue el enlace entre las comillas de rsvpFormUrl.
+5. Vuelva a cargar config.js en GitHub (Add file > Upload files) para reemplazarlo.
+
+IMPORTANTE
+- El botón de confirmar no registra respuestas hasta que se configure el enlace de Google Forms. No se simula ningún registro.
+- Google Forms guarda respuestas en la cuenta Google del colegio; puede vincular una hoja de cálculo desde la pestaña Respuestas.
+- Antes de recopilar datos, agregue el aviso de privacidad de Vida 180 y limite el acceso a las respuestas.
+- GitHub Pages requiere repositorio público en el plan gratuito; todo archivo subido allí será público. No suba datos personales, contraseñas ni claves.
+- El plan y los límites de servicios externos pueden cambiar. No se requiere comprar un dominio.
+
+ENLACE URLGENIUS
+Cuando la invitación ya tenga URL pública, se podrá crear el enlace URLgenius con esa dirección como destino.
