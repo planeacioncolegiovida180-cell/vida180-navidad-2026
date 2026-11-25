@@ -1,6 +1,5 @@
 // Configuración pública de la invitación Vida 180.
-// Pegue aquí el enlace público de su Formulario de Google.
-// Ejemplo: https://docs.google.com/forms/d/e/ID_DEL_FORMULARIO/viewform
+// Enlace del formulario de confirmación de asistencia.
 window.VIDA180_CONFIG = {
-  rsvpFormUrl: ''
+  rsvpFormUrl: 'https://forms.gle/qDPZo7dRGMma9yJDA'
 };

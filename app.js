@@ -78,7 +78,7 @@
   } else revealItems.forEach(item => item.classList.add('visible'));
 
   rsvpOpen.addEventListener('click', () => {
-    if (rsvpFormUrl && /^https:\/\/docs\.google\.com\/forms\/d\/e\//.test(rsvpFormUrl)) {
+    if (rsvpFormUrl && /^(https:\/\/docs\.google\.com\/forms\/d\/e\/|https:\/\/forms\.gle\/)/.test(rsvpFormUrl)) {
       window.open(rsvpFormUrl, '_blank', 'noopener,noreferrer');
       return;
     }
